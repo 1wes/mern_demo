@@ -1,0 +1,22 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Intro to the Express web framework for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "keywords": [
+    "app",
+    "listen"
+  ],
+  "author": "Wes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
